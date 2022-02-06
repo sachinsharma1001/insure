@@ -1,13 +1,13 @@
-package com.insure.config.insureconfigservice;
+package com.insure;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InsureConfigServiceApplication {
+public class InsureServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InsureConfigServiceApplication.class, args);
+		SpringApplication.run(InsureServiceApplication.class, args);
 	}
 
 }
